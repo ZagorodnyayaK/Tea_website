@@ -25,7 +25,9 @@ ul {
 }
 
 body {
-color: #151618;
+    color: #151618;
+    /*font-family: 'Cormorant', serif;*/
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 300;
     line-height: 1.5;
@@ -33,7 +35,7 @@ color: #151618;
 
 }
 
-.header__inner{
+.header__inner {
     min-height: 140px;
     justify-content: space-between;
     align-items: center;
@@ -41,23 +43,23 @@ color: #151618;
     padding: 30px 0;
 }
 
-.logo{
+.logo {
     margin-bottom: 35px;
 }
 
-.menu__list{
+.menu__list {
     display: flex;
     align-items: center;
     gap: 0 65px;
 }
 
-.user-actions{
+.user-actions {
     display: flex;
     align-items: center;
     gap: 0 20px;
 }
 
-.user-actions__item-search{
+.user-actions__item-search {
     margin-left: 80px;
 
 }
