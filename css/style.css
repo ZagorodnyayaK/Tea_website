@@ -475,8 +475,8 @@ body {
     margin-top: 20px;
 }
 
-.footer__nav-phone:before,
-.footer__nav-email:before {
+.footer__nav-phone::before,
+.footer__nav-email::before {
     content: "";
     position: absolute;
     left: 0;
