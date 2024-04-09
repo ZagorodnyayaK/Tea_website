@@ -462,6 +462,11 @@ body {
     margin-right: 40px;
 }
 
+.footer__logo img {
+    width: 57px;
+    height: 91px;
+}
+
 .footer__nav-phone,
 .footer__nav-email {
     font-size: 13px;
@@ -473,21 +478,23 @@ body {
 
 .footer__nav-contacts {
     margin-top: 20px;
+    margin-left: auto;
 }
 
 .footer__nav-phone::before,
 .footer__nav-email::before {
     content: "";
     position: absolute;
-    left: 0;
+    left: -35px;
     top: 2px;
+    padding-right: 22px;
     width: 22px;
     height: 16px;
     background-image: url("../images/email.svg");
 }
 
 .footer__nav-phone::before {
-    background-image: url("../images/phone.svg");
+    background-image: url("../images/phone.svg") ;
     width: 21px;
     height: 21px;
 }
@@ -944,10 +951,6 @@ body {
 
     }
 
-    .footer__logo img {
-        width: 57px;
-        height: 91px;
-    }
 
     .footer__blockquote-author {
         display: flex;
