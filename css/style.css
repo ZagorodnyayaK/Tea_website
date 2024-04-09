@@ -436,6 +436,11 @@ body {
     margin-bottom: 20px;
 }
 
+.footer__products--link,
+.footer__company--link{
+    font-size: 16px;
+}
+
 .footer__bottom{
     display: flex;
 }
@@ -904,6 +909,7 @@ body {
     }
     .footer__blockquote-text{
         margin-bottom: 10px;
+        margin-top: 50px;
     }
 
     .footer__contacts{
@@ -916,7 +922,7 @@ body {
     }
 
     .footer__social{
-        margin-left: 15px;
+        margin-left: 20px;
     }
 
     .footer__copy{
@@ -931,6 +937,33 @@ body {
         text-align: center;
     }
 
+    .footer__products{
+        margin-right: auto;
+        padding-right: 20px;
+    }
+
+    .footer__company-title{
+        padding-right: 20px;
+        margin-right: 55px;
+    }
+    .footer__products-title,
+    .footer__company-title{
+        margin-bottom: 30px;
+    }
+    .footer{
+        padding: 50px 0 10px;
+    }
+    .footer__bottom{
+        margin-right: 43px;
+    }
+    .footer__logo{
+        margin-left: 15px;
+
+    }
+    .footer__logo img{
+        width: 57px;
+        height: 91px;
+    }
 }
 
 @media (max-width: 360px) {
