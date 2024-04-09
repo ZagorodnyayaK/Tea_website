@@ -486,7 +486,7 @@ body {
     background-image: url("../images/email.svg");
 }
 
-.footer__nav-phone:before {
+.footer__nav-phone::before {
     background-image: url("../images/phone.svg");
     width: 21px;
     height: 21px;
